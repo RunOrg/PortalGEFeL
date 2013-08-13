@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+}
+
+#logo {
+  margin: 0 0 10px 0;
+  height: 110px;
+  background: url("img/logo.png") center center no-repeat rgb(127,156,52);
+}
+
+#ronde {
+  height: 600px;
+  background: url("img/ronde.png") center center no-repeat transparent;
+}
+
+#white {
+  background: rgba(255,255,255,0.75);
+  color: rgb(127,156,52);
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 37px;
+  font-variant: small-caps;
+  position: relative;
+  top: -320px;
+}
+
+#white a:hover {
+  color: #F97242;
+}
+
+#white a {
+  color: rgb(127,156,52);
+}
+
+#foot {
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  margin: 50px auto;
+}
+
+.narrow {
+  width: 800px; 
+  margin: auto;
+}
